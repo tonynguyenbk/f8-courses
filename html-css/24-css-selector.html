@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Selector ID</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="24-css-selector.css">
+    </head>
+
+    <body>
+        <div>
+            <h1>CSS Selector ID</h1>
+            <button>Sign Up</button>
+            <button>Log In</button>
+            <input type="text">
+            <input type="checkbox">
+            <input name="gender" type="radio">
+            <input name="gender" type="radio">
+            <input name="gender" type="radio">
+           
+            <p class="children-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam.</p>
+            <p class="children-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero.</p>
+
+            <div class="parent">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias.</p>
+                <p class="children-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi.</p>
+                <p class="children-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A.</p>
+            </div>
+
+            <style>
+                .parent p {
+                    color: green;
+                }
+                .parent .children-1 {
+                    color: red;
+                }
+            </style>
+
+            <img src="https://c4.wallpaperflare.com/wallpaper/191/565/239/anime-violet-evergarden-blonde-blue-eyes-wallpaper-preview.jpg" alt="Violet Evergarden">
+            <a href="https://www.youtube.com/">follow this link</a>
+            <ul>
+                <li>lesson 1</li>
+                <li>lesson 2</li>
+                <li>lesson 3</li>
+            </ul>
+
+            <table>
+                <thead>
+                    <th>STT</th>
+                    <th>Name</th>
+                    <th>University</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>TonyNguyen</td>
+                        <td>HUST</td>
+                    </tr>
+                </tbody>
+            </table>
+                <h2 style="color: blueviolet;font-size: 16px;" id="primary-heading">Title 1</h2>
+                <h2 id="primary-heading">Title 2</h2>
+                <style>
+                    #primary-heading {
+                        color: red;
+                    }
+                </style>
+        </div>
+    </body>
+</html>
